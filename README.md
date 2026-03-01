@@ -16,10 +16,10 @@ Ya sea que busques desafiar el Paso de Mahoma en el Pirineo Aragonés o pedalear
 ---
 
 ## 📋 Tabla de Contenidos
-- [Demo en Vivo](#-demo-en-vivo)
-- [Características Premium](#-características-premium-saas-ready)
+- [Demo](#-demo-en-vivo)
+- [Características](#-características)
 - [Stack Tecnológico](#-stack-tecnológico)
-- [Instalación y Local](#-instalación-y-desarrollo-local)
+- [Instalación](#-instalación)
 - [Screenshots](#-screenshots)
 - [Roadmap](#-roadmap)
 - [Variables de Entorno](#-variables-de-entorno)
@@ -35,7 +35,7 @@ Puedes explorar el proyecto desplegado a nivel mundial (vía Vercel) aquí:
 
 ---
 
-## 💎 Características Premium (SaaS Ready)
+## 💎 Características
 - **Animaciones Cinematográficas**: UI potenciada enteramente por `framer-motion` (Parallax scroll, fade-ins, hovers con glow radial).
 - **Glassmorphism Inteligente**: Sidebars, navbars y tarjetas con efecto cristalino sobre la densa interfaz oscura.
 - **Rutas GPX Reales**: Integración experta con Leaflet interactivo permitiendo visualizar trazados de rutas exactos con puntos de inicio y final precisos.
@@ -62,7 +62,7 @@ Puedes explorar el proyecto desplegado a nivel mundial (vía Vercel) aquí:
 
 ---
 
-## 🚀 Instalación y Desarrollo Local
+## 🚀 Instalación
 
 El proyecto está diseñado para funcionar out-of-the-box sin necesidad de instalar bases de datos externas en la Fase actual MVP.
 
@@ -92,7 +92,6 @@ La aplicación vivirá mágicamente en **[http://localhost:3000](http://localhos
 
 ### Landing Page & Marketplace
 ![Landing Page](./public/screenshots/landing.png)
-*(Reemplaza esta imagen subiendo tu propia captura animada con LICEcap a la carpeta `/public/screenshots/`)*
 
 ### Ruta Interactiva y Modo Lightbox
 ![Route Details](./public/screenshots/route-details.png)
@@ -132,7 +131,7 @@ NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_public_key
 4. Haz Push a la rama (`git push origin feature/AmazingFeature`).
 5. Abre un **Pull Request**.
 
-Si el proyecto escala, crearemos pronto un archivo dedicado `CONTRIBUTING.md`.
+Si el proyecto escala, consulta el archivo [CONTRIBUTING.md](./CONTRIBUTING.md) para más detalles.
 
 ---
 

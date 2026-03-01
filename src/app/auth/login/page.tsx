@@ -50,9 +50,11 @@ export default function LoginPage() {
                         </div>
                     </div>
 
-                    <Button className="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-bold h-12 rounded-xl mb-6 shadow-[0_0_20px_rgba(16,185,129,0.3)] transition-all hover:scale-[1.02]">
-                        Iniciar sesión
-                    </Button>
+                    <Link href="/dashboard" className="w-full">
+                        <Button className="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-bold h-12 rounded-xl mb-6 shadow-[0_0_20px_rgba(16,185,129,0.3)] transition-all hover:scale-[1.02]">
+                            Iniciar sesión
+                        </Button>
+                    </Link>
 
                     <div className="relative mb-6">
                         <div className="absolute inset-0 flex items-center">
@@ -64,12 +66,16 @@ export default function LoginPage() {
                     </div>
 
                     <div className="grid grid-cols-2 gap-4">
-                        <Button variant="outline" className="bg-white/5 border-white/10 hover:bg-white/10 text-white h-11 rounded-xl w-full">
-                            <Github className="w-4 h-4 mr-2" /> GitHub
-                        </Button>
-                        <Button variant="outline" className="bg-white/5 border-white/10 hover:bg-white/10 text-white h-11 rounded-xl w-full">
-                            <Chrome className="w-4 h-4 mr-2 text-white" /> Google
-                        </Button>
+                        <Link href="/dashboard" className="w-full">
+                            <Button variant="outline" className="bg-white/5 border-white/10 hover:bg-white/10 text-white h-11 rounded-xl w-full">
+                                <Github className="w-4 h-4 mr-2" /> GitHub
+                            </Button>
+                        </Link>
+                        <Link href="/dashboard" className="w-full">
+                            <Button variant="outline" className="bg-white/5 border-white/10 hover:bg-white/10 text-white h-11 rounded-xl w-full">
+                                <Chrome className="w-4 h-4 mr-2 text-white" /> Google
+                            </Button>
+                        </Link>
                     </div>
                 </div>
 

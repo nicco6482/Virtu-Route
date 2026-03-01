@@ -38,12 +38,16 @@ export default function RegisterPage() {
                 <div className="bg-[#121814]/80 backdrop-blur-xl border border-white/10 rounded-3xl p-8 shadow-2xl">
 
                     <div className="grid grid-cols-2 gap-4 mb-6">
-                        <Button variant="outline" className="bg-white/5 border-white/10 hover:bg-white/10 text-white h-11 rounded-xl w-full">
-                            <Github className="w-4 h-4 mr-2" /> GitHub
-                        </Button>
-                        <Button variant="outline" className="bg-white/5 border-white/10 hover:bg-white/10 text-white h-11 rounded-xl w-full">
-                            <Chrome className="w-4 h-4 mr-2 text-white" /> Google
-                        </Button>
+                        <Link href="/dashboard" className="w-full">
+                            <Button variant="outline" className="bg-white/5 border-white/10 hover:bg-white/10 text-white h-11 rounded-xl w-full">
+                                <Github className="w-4 h-4 mr-2" /> GitHub
+                            </Button>
+                        </Link>
+                        <Link href="/dashboard" className="w-full">
+                            <Button variant="outline" className="bg-white/5 border-white/10 hover:bg-white/10 text-white h-11 rounded-xl w-full">
+                                <Chrome className="w-4 h-4 mr-2 text-white" /> Google
+                            </Button>
+                        </Link>
                     </div>
 
                     <div className="relative mb-6">
@@ -70,9 +74,11 @@ export default function RegisterPage() {
                         </div>
                     </div>
 
-                    <Button className="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-bold h-12 rounded-xl mb-6 shadow-[0_0_20px_rgba(16,185,129,0.3)] transition-all hover:scale-[1.02]">
-                        Crear cuenta
-                    </Button>
+                    <Link href="/dashboard" className="w-full">
+                        <Button className="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-bold h-12 rounded-xl mb-6 shadow-[0_0_20px_rgba(16,185,129,0.3)] transition-all hover:scale-[1.02]">
+                            Crear cuenta
+                        </Button>
+                    </Link>
 
                     <p className="text-xs text-white/40 text-center px-4">
                         Al registrarte, aceptas nuestros <Link href="#" className="underline hover:text-white">Términos de servicio</Link> y <Link href="#" className="underline hover:text-white">Política de privacidad</Link>.
