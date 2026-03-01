@@ -18,11 +18,11 @@ Ya sea que busques desafiar el Paso de Mahoma en el Pirineo Aragonés o pedalear
 
 ## 📋 Tabla de Contenidos
 - [Demo](#-demo-en-vivo)
+- [Screenshots](#-screenshots)
 - [Características](#-características)
 - [Stack Tecnológico](#-stack-tecnológico)
 - [Estructura del Proyecto](#-estructura-del-proyecto)
 - [Instalación](#-instalación)
-- [Screenshots](#-screenshots)
 - [Roadmap](#-roadmap)
 - [Variables de Entorno](#-variables-de-entorno)
 - [Contribuir](#-contribuir)
@@ -35,6 +35,16 @@ Ya sea que busques desafiar el Paso de Mahoma en el Pirineo Aragonés o pedalear
 
 Puedes explorar el proyecto desplegado a nivel mundial (vía Vercel) aquí:
 👉 **[https://virtu-route.vercel.app](https://virtu-route.vercel.app)**
+
+---
+
+## 📸 Screenshots
+
+### Landing Page & Marketplace
+![Landing Page](./public/screenshots/landing.png)
+
+### Ruta Interactiva y Modo Lightbox
+![Route Details](./public/screenshots/route-details.png)
 
 ---
 
@@ -116,16 +126,6 @@ npm run dev
 La aplicación vivirá mágicamente en **[http://localhost:3000](http://localhost:3000)**. 
 
 *(**Nota para desarrolladores**: Asegúrate de tener los dominios fotográficos aprobados en el `next.config.ts` o Next.js Image Component bloqueará su renderizado).*
-
----
-
-## 📸 Screenshots
-
-### Landing Page & Marketplace
-![Landing Page](./public/screenshots/landing.png)
-
-### Ruta Interactiva y Modo Lightbox
-![Route Details](./public/screenshots/route-details.png)
 
 ---
 
