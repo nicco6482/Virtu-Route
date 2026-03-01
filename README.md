@@ -1,4 +1,4 @@
-# 🌍 VirtuRoute - Premium Virtual Route SaaS
+# 🌍 VirtuRoute - Virtual Route SaaS
 
 ![VirtuRoute Banner](https://images.unsplash.com/photo-1551632811-561732d1e306?w=1200&h=400&fit=crop)
 
