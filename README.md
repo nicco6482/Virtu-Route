@@ -4,6 +4,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
 ![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?logo=vercel)
 ![License](https://img.shields.io/badge/License-MIT-green)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
 
 ![VirtuRoute Banner](https://images.unsplash.com/photo-1551632811-561732d1e306?w=1200&h=400&fit=crop)
 
@@ -19,11 +20,13 @@ Ya sea que busques desafiar el Paso de Mahoma en el Pirineo Aragonés o pedalear
 - [Demo](#-demo-en-vivo)
 - [Características](#-características)
 - [Stack Tecnológico](#-stack-tecnológico)
+- [Estructura del Proyecto](#-estructura-del-proyecto)
 - [Instalación](#-instalación)
 - [Screenshots](#-screenshots)
 - [Roadmap](#-roadmap)
 - [Variables de Entorno](#-variables-de-entorno)
 - [Contribuir](#-contribuir)
+- [Contacto](#-contacto)
 - [Licencia](#-licencia)
 
 ---
@@ -62,7 +65,35 @@ Puedes explorar el proyecto desplegado a nivel mundial (vía Vercel) aquí:
 
 ---
 
+## 📁 Estructura del Proyecto
+
+Una visión general de la arquitectura de la aplicación en Next.js App Router:
+
+```text
+Virtu-Route/
+├── public/                 # Assets estáticos (imágenes, iconos)
+├── src/
+│   ├── app/                # Rutas y páginas (App Router)
+│   │   ├── auth/           # Vistas de autenticación (Login/Register)
+│   │   ├── dashboard/      # Panel principal post-login
+│   │   ├── explorar/       # Marketplace de rutas globales
+│   │   └── ruta/[slug]/    # Rutas dinámicas con mapas GIS
+│   ├── components/         # Componentes React reutilizables (shadcn/ui, layout)
+│   ├── lib/                # Utilidades, constantes y data de prueba (rutas.ts)
+│   └── styles/             # Tailwind tokens y variables globales
+├── .env.local              # Secretos y configuración de entorno
+├── next.config.ts          # Configuración de compilación Next.js
+└── tailwind.config.ts      # Configuración de estilos v4
+```
+
+---
+
 ## 🚀 Instalación
+
+### Requisitos Previos
+Asegúrate de tener instalado:
+- **Node.js** (v18.17.0 o superior)
+- **npm**, **yarn**, **pnpm** o **bun**
 
 El proyecto está diseñado para funcionar out-of-the-box sin necesidad de instalar bases de datos externas en la Fase actual MVP.
 
@@ -132,6 +163,18 @@ NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_public_key
 5. Abre un **Pull Request**.
 
 Si el proyecto escala, consulta el archivo [CONTRIBUTING.md](./CONTRIBUTING.md) para más detalles.
+
+---
+
+## 📬 Contacto
+
+Si tienes preguntas comerciales, ofertas o simplemente quieres saludar de desarrollador a desarrollador:
+
+- **GitHub**: [@nicco6482](https://github.com/nicco6482)
+- **Email**: [Añade tu email de contacto aquí]
+- **Sitio Web Personal**: [Añade tu portafolio si lo tienes]
+
+*(Si eres reclutador, ¡este proyecto ilustra mi capacidad de end-to-end con Next.js y ecosistemas modernos!)*
 
 ---
 
